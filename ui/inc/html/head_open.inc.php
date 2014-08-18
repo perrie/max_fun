@@ -1,12 +1,3 @@
-<?php
-
-// Cleaning
-foreach ($_GET as &$value) {
-    $value = htmlspecialchars($value);
-}
-$action = (isset($_GET["action"])) ? $_GET["action"] : "";
-?>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 

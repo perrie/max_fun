@@ -1,8 +1,3 @@
-<?php
-
-include("inc/search_params.inc.php");
-
-?>
 <h1>Search</h1>
 <p><em>Instructions:</em> Enter text to search in the fields provided. Partial phrases are accepted. Empty search fields will not be included in the search. There is also some issue with the character encoding (so searches with accented letters may be faulty). <strong>Warning:</strong> System currently returns all results, so the page may take a while to load if the entry results are large in number.</p>
 <p><em>Advanced Entry Search case examples</em>:</p>
